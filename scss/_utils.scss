@@ -11,6 +11,9 @@ margin-bottom: 8px;
 margin-bottom: 16px;
 }
   
+.ml-auto{
+    margin-left: auto;
+}
 // 共用顏色與樣式
 .a-none {
 text-decoration: none;
@@ -25,6 +28,10 @@ color: #949494;
 //文字大小
 .font-l{
     font-size: 128px;
+}
+
+.font-m{
+    font-size: 32px;
 }
       
 //文字方向
