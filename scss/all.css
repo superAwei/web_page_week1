@@ -1,0 +1,116 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+body {
+  font-family: "Castoro", serif;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.a-none {
+  text-decoration: none;
+  color: #000000;
+}
+
+.text-secondary {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #949494;
+}
+
+.font-l {
+  font-size: 128px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.banner .photo {
+  display: block;
+  width: 636px;
+  height: 848px;
+  margin: 0 auto;
+}
+.banner .resume {
+  width: 636px;
+  text-align: right;
+  font-size: 128px;
+}
+
+.intro {
+  padding: 48px 0px;
+  background-color: #efefef;
+}
+.intro p {
+  width: 636px;
+  height: 336px;
+  font-size: 32px;
+  text-align: left;
+  margin-left: auto;
+}
+
+.personal {
+  padding-top: 80px;
+  padding-bottom: 160px;
+}
+.personal .evans, .personal .education, .personal .work, .personal .awards {
+  width: 636px;
+}
+.personal .title {
+  font-size: 40px;
+  border-bottom: 2px solid #ae0000;
+  color: #ae0000;
+}
+.personal li {
+  font-size: 24px;
+}
+
+footer {
+  background-color: #000000;
+  padding: 64px 0px;
+}
+footer .social {
+  display: flex;
+  justify-content: center;
+}
+footer .social .fb {
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week1/fb.png?raw=true");
+}
+footer .social .ig {
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week1/instagram.png?raw=true");
+  margin: 0px 40px;
+}
+footer .social .line {
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week1/line.png?raw=true");
+}/*# sourceMappingURL=all.css.map */

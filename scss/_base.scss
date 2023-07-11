@@ -1,0 +1,13 @@
+//共用樣式
+*, *::before, *::after {
+    box-sizing:border-box;
+   }
+
+   img{
+     vertical-align: middle; 
+   }
+   
+   body{
+    font-family: 'Castoro', serif;
+    line-height:1.5;
+  }

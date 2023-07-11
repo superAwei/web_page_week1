@@ -1,0 +1,69 @@
+.banner {
+     .photo {
+       display:block;
+       width: 636px;
+       height: 848px;
+       margin: 0 auto;
+     }
+     .resume {
+       width: 636px;
+       text-align: right;
+       font-size: 128px;
+     }
+   }
+
+.intro {
+  padding: 48px 0px;
+  background-color: #efefef;
+  p {
+    width: 636px;
+    height: 336px;
+    font-size: 32px;
+    text-align:left;
+    margin-left: auto;
+  }
+}
+
+.personal {
+  padding-top: 80px;
+  padding-bottom: 160px;
+  .evans,.education,.work,.awards{
+    width: 636px;
+  }
+  .title {
+    font-size: 40px;
+    border-bottom: 2px solid #ae0000;
+    color: #ae0000;
+  }
+  li {
+    font-size: 24px;
+  }
+}
+
+footer {
+  background-color: #000000;
+  padding:64px 0px;
+  .social {
+    display: flex;
+    justify-content: center;
+    .fb {
+      width: 64px;
+      height: 64px;
+      display: inline-block;
+      background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week1/fb.png?raw=true");
+    }
+    .ig {
+      width: 64px;
+      height: 64px;
+      display: inline-block;
+      background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week1/instagram.png?raw=true");
+      margin: 0px 40px;
+    }
+    .line {
+      width: 64px;
+      height: 64px;
+      display: inline-block;
+      background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week1/line.png?raw=true");
+    }
+  }
+}
