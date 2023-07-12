@@ -38,26 +38,22 @@ footer {
   background-color: #000000;
   padding:64px 0px;
   .social {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    li{
+      display: inline-block;
+    }
     .fb {
       width: 64px;
       height: 64px;
-      display: inline-block;
-      background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week1/fb.png?raw=true");
     }
     .ig {
       width: 64px;
       height: 64px;
-      display: inline-block;
-      background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week1/instagram.png?raw=true");
       margin: 0px 40px;
     }
     .line {
       width: 64px;
       height: 64px;
-      display: inline-block;
-      background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week1/line.png?raw=true");
     }
   }
 }

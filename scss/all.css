@@ -78,6 +78,10 @@ body {
   margin-bottom: 8px;
 }
 
+.mb-12 {
+  margin-bottom: 12px;
+}
+
 .mb-16 {
   margin-bottom: 16px;
 }
@@ -148,25 +152,21 @@ footer {
   padding: 64px 0px;
 }
 footer .social {
-  display: flex;
-  justify-content: center;
+  text-align: center;
+}
+footer .social li {
+  display: inline-block;
 }
 footer .social .fb {
   width: 64px;
   height: 64px;
-  display: inline-block;
-  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week1/fb.png?raw=true");
 }
 footer .social .ig {
   width: 64px;
   height: 64px;
-  display: inline-block;
-  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week1/instagram.png?raw=true");
   margin: 0px 40px;
 }
 footer .social .line {
   width: 64px;
   height: 64px;
-  display: inline-block;
-  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week1/line.png?raw=true");
 }/*# sourceMappingURL=all.css.map */
