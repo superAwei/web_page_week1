@@ -49,15 +49,18 @@ table {
 }
 
 //共用樣式
+// 設定 box-sizing: border-box; 來更換盒模型的計算方式
 *, *::before, *::after {
     box-sizing:border-box;
    }
-
+// img 標籤也要記得使用  vertical-align: middle; 來移除行內元素下方會有的空隙
    img{
      vertical-align: middle; 
    }
 
-   body{
+// 引入設計稿指定的字型，以及設定文字基本的文字大小 24px，行高為 1.5px
+   body {
     font-family: 'Castoro', serif;
-    line-height:1.5;
+    line-height: 1.5;
+    font-size: 24px;
   }

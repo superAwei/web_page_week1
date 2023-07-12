@@ -41,6 +41,9 @@ footer {
     text-align: center;
     li{
       display: inline-block;
+      a:hover{
+        opacity: 0.8;
+      }
     }
     .fb {
       width: 64px;

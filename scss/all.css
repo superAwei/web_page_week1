@@ -63,11 +63,16 @@ img {
 body {
   font-family: "Castoro", serif;
   line-height: 1.5;
+  font-size: 24px;
 }
 
 .container {
   max-width: 1296px;
   margin: 0 auto;
+}
+
+.mt-160 {
+  margin-top: 160px;
 }
 
 .mb-40 {
@@ -156,6 +161,9 @@ footer .social {
 }
 footer .social li {
   display: inline-block;
+}
+footer .social li a:hover {
+  opacity: 0.8;
 }
 footer .social .fb {
   width: 64px;
